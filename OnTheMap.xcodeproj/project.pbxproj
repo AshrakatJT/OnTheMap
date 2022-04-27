@@ -9,21 +9,51 @@
 /* Begin PBXBuildFile section */
 		AF327FD227E89BED00CC108F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF327FD127E89BED00CC108F /* AppDelegate.swift */; };
 		AF327FD427E89BED00CC108F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF327FD327E89BED00CC108F /* SceneDelegate.swift */; };
-		AF327FD627E89BED00CC108F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF327FD527E89BED00CC108F /* ViewController.swift */; };
 		AF327FD927E89BED00CC108F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF327FD727E89BED00CC108F /* Main.storyboard */; };
 		AF327FDB27E89BF400CC108F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF327FDA27E89BF400CC108F /* Assets.xcassets */; };
 		AF327FDE27E89BF400CC108F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF327FDC27E89BF400CC108F /* LaunchScreen.storyboard */; };
+		AF327FEB27E89F3B00CC108F /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF327FEA27E89F3B00CC108F /* LoginViewController.swift */; };
+		AF327FED27E89F7700CC108F /* LocationTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF327FEC27E89F7700CC108F /* LocationTableViewController.swift */; };
+		AF327FEF27E89F9C00CC108F /* LocationMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF327FEE27E89F9C00CC108F /* LocationMapViewController.swift */; };
+		AF327FF327E89FF500CC108F /* AddPinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF327FF227E89FF500CC108F /* AddPinViewController.swift */; };
+		AF327FF527E8A0D400CC108F /* LocationConfirmationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF327FF427E8A0D400CC108F /* LocationConfirmationViewController.swift */; };
+		AF327FF927EB8C4F00CC108F /* LocationTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF327FF827EB8C4F00CC108F /* LocationTableCell.swift */; };
+		AF6091F328120D0A00331A3C /* StudentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF6091F228120D0A00331A3C /* StudentModel.swift */; };
+		AF6091F528120F5100331A3C /* UdacityClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF6091F428120F5100331A3C /* UdacityClient.swift */; };
+		AF6091F728120FCB00331A3C /* LoginRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF6091F628120FCB00331A3C /* LoginRequest.swift */; };
+		AF6091F928120FEF00331A3C /* PostLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF6091F828120FEF00331A3C /* PostLocation.swift */; };
+		AF6091FB2812101700331A3C /* LoginResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF6091FA2812101700331A3C /* LoginResponse.swift */; };
+		AF6091FD2812103200331A3C /* StudentLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF6091FC2812103200331A3C /* StudentLocation.swift */; };
+		AF6091FF2812109600331A3C /* StudentLocationResults.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF6091FE2812109600331A3C /* StudentLocationResults.swift */; };
+		AF609201281210B400331A3C /* UpdateLocationResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF609200281210B400331A3C /* UpdateLocationResponse.swift */; };
+		AF609203281210D400331A3C /* GetUserDataResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF609202281210D400331A3C /* GetUserDataResponse.swift */; };
+		AF609205281210EC00331A3C /* PostLocationResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF609204281210EC00331A3C /* PostLocationResponse.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		AF327FCE27E89BED00CC108F /* OnTheMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OnTheMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF327FD127E89BED00CC108F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AF327FD327E89BED00CC108F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		AF327FD527E89BED00CC108F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		AF327FD827E89BED00CC108F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AF327FDA27E89BF400CC108F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AF327FDD27E89BF400CC108F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AF327FDF27E89BF400CC108F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF327FEA27E89F3B00CC108F /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		AF327FEC27E89F7700CC108F /* LocationTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationTableViewController.swift; sourceTree = "<group>"; };
+		AF327FEE27E89F9C00CC108F /* LocationMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationMapViewController.swift; sourceTree = "<group>"; };
+		AF327FF227E89FF500CC108F /* AddPinViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPinViewController.swift; sourceTree = "<group>"; };
+		AF327FF427E8A0D400CC108F /* LocationConfirmationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationConfirmationViewController.swift; sourceTree = "<group>"; };
+		AF327FF827EB8C4F00CC108F /* LocationTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationTableCell.swift; sourceTree = "<group>"; };
+		AF6091F228120D0A00331A3C /* StudentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentModel.swift; sourceTree = "<group>"; };
+		AF6091F428120F5100331A3C /* UdacityClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UdacityClient.swift; sourceTree = "<group>"; };
+		AF6091F628120FCB00331A3C /* LoginRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRequest.swift; sourceTree = "<group>"; };
+		AF6091F828120FEF00331A3C /* PostLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostLocation.swift; sourceTree = "<group>"; };
+		AF6091FA2812101700331A3C /* LoginResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginResponse.swift; sourceTree = "<group>"; };
+		AF6091FC2812103200331A3C /* StudentLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentLocation.swift; sourceTree = "<group>"; };
+		AF6091FE2812109600331A3C /* StudentLocationResults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentLocationResults.swift; sourceTree = "<group>"; };
+		AF609200281210B400331A3C /* UpdateLocationResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateLocationResponse.swift; sourceTree = "<group>"; };
+		AF609202281210D400331A3C /* GetUserDataResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetUserDataResponse.swift; sourceTree = "<group>"; };
+		AF609204281210EC00331A3C /* PostLocationResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostLocationResponse.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +71,8 @@
 			isa = PBXGroup;
 			children = (
 				AF327FD027E89BED00CC108F /* OnTheMap */,
+				AF327FDA27E89BF400CC108F /* Assets.xcassets */,
+				AF327FDF27E89BF400CC108F /* Info.plist */,
 				AF327FCF27E89BED00CC108F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -58,13 +90,66 @@
 			children = (
 				AF327FD127E89BED00CC108F /* AppDelegate.swift */,
 				AF327FD327E89BED00CC108F /* SceneDelegate.swift */,
-				AF327FD527E89BED00CC108F /* ViewController.swift */,
-				AF327FD727E89BED00CC108F /* Main.storyboard */,
-				AF327FDA27E89BF400CC108F /* Assets.xcassets */,
-				AF327FDC27E89BF400CC108F /* LaunchScreen.storyboard */,
-				AF327FDF27E89BF400CC108F /* Info.plist */,
+				AF327FE527E89C0C00CC108F /* Controllers */,
+				AF327FE727E89C7A00CC108F /* Model */,
+				AF327FE627E89C2000CC108F /* View */,
 			);
 			path = OnTheMap;
+			sourceTree = "<group>";
+		};
+		AF327FE527E89C0C00CC108F /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				AF327FEA27E89F3B00CC108F /* LoginViewController.swift */,
+				AF327FEC27E89F7700CC108F /* LocationTableViewController.swift */,
+				AF327FEE27E89F9C00CC108F /* LocationMapViewController.swift */,
+				AF327FF227E89FF500CC108F /* AddPinViewController.swift */,
+				AF327FF427E8A0D400CC108F /* LocationConfirmationViewController.swift */,
+				AF327FF827EB8C4F00CC108F /* LocationTableCell.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		AF327FE627E89C2000CC108F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AF327FD727E89BED00CC108F /* Main.storyboard */,
+				AF327FDC27E89BF400CC108F /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AF327FE727E89C7A00CC108F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AF6091F128120CC900331A3C /* Network */,
+				AF6091F028120CA500331A3C /* Data */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AF6091F028120CA500331A3C /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				AF6091F228120D0A00331A3C /* StudentModel.swift */,
+				AF6091F428120F5100331A3C /* UdacityClient.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		AF6091F128120CC900331A3C /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				AF6091F628120FCB00331A3C /* LoginRequest.swift */,
+				AF6091F828120FEF00331A3C /* PostLocation.swift */,
+				AF6091FA2812101700331A3C /* LoginResponse.swift */,
+				AF6091FC2812103200331A3C /* StudentLocation.swift */,
+				AF6091FE2812109600331A3C /* StudentLocationResults.swift */,
+				AF609200281210B400331A3C /* UpdateLocationResponse.swift */,
+				AF609202281210D400331A3C /* GetUserDataResponse.swift */,
+				AF609204281210EC00331A3C /* PostLocationResponse.swift */,
+			);
+			path = Network;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +222,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AF327FD627E89BED00CC108F /* ViewController.swift in Sources */,
+				AF327FF527E8A0D400CC108F /* LocationConfirmationViewController.swift in Sources */,
+				AF327FF327E89FF500CC108F /* AddPinViewController.swift in Sources */,
+				AF609203281210D400331A3C /* GetUserDataResponse.swift in Sources */,
+				AF609201281210B400331A3C /* UpdateLocationResponse.swift in Sources */,
+				AF609205281210EC00331A3C /* PostLocationResponse.swift in Sources */,
+				AF327FEB27E89F3B00CC108F /* LoginViewController.swift in Sources */,
+				AF6091FD2812103200331A3C /* StudentLocation.swift in Sources */,
+				AF6091F728120FCB00331A3C /* LoginRequest.swift in Sources */,
+				AF6091F528120F5100331A3C /* UdacityClient.swift in Sources */,
+				AF6091F328120D0A00331A3C /* StudentModel.swift in Sources */,
+				AF6091FB2812101700331A3C /* LoginResponse.swift in Sources */,
+				AF327FF927EB8C4F00CC108F /* LocationTableCell.swift in Sources */,
+				AF6091FF2812109600331A3C /* StudentLocationResults.swift in Sources */,
+				AF6091F928120FEF00331A3C /* PostLocation.swift in Sources */,
+				AF327FEF27E89F9C00CC108F /* LocationMapViewController.swift in Sources */,
 				AF327FD227E89BED00CC108F /* AppDelegate.swift in Sources */,
+				AF327FED27E89F7700CC108F /* LocationTableViewController.swift in Sources */,
 				AF327FD427E89BED00CC108F /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -287,7 +387,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = OnTheMap/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -305,7 +405,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = OnTheMap/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
