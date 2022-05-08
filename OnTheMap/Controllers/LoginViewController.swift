@@ -117,15 +117,15 @@ class LoginViewController: UIViewController, UITextFieldDelegate {
 
 func subscribeToKeyboardNotifications() {
     NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillShow(_:)), name: UIResponder.keyboardWillShowNotification, object: nil)
-    NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillHide(_:)), name: UIResponder.keyboardDidHideNotification, object: nil)
+    NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillHide(_:)), name: UIResponder.keyboardWillHideNotification, object: nil)
 }
     func unsubscribeToKeyboardNotifications() {
         NotificationCenter.default.removeObserver(self, name: UIResponder.keyboardDidShowNotification, object: nil)
-        NotificationCenter.default.removeObserver(self, name: UIResponder.keyboardDidHideNotification, object: nil)
+        NotificationCenter.default.removeObserver(self, name: UIResponder.keyboardWillHideNotification, object: nil)
     }
     @objc func keyboardWillShow(_ notification:Notification){
         if password.isEditing || email.isEditing{
-            view.frame.origin.y -= getKeyboardHeight (notification)
+            view.frame.origin.y = -getKeyboardHeight (notification)
     }
     }
     @objc func keyboardWillHide(_ notification:Notification){
