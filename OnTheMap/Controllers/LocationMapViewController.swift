@@ -31,7 +31,6 @@ class LocationMapViewController: UIViewController, MKMapViewDelegate {
             if let vc = self.storyboard?.instantiateViewController(identifier: "AddPinViewController") as? AddPinViewController
             {
                 vc.loadView()
-                vc.viewDidLoad()
                 vc.linkTextField.text = UdacityClient.User.link
                 vc.locationTextField.text = UdacityClient.User.location
                 self.navigationController?.pushViewController(vc, animated: true)

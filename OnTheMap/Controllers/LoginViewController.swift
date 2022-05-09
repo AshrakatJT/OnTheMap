@@ -60,7 +60,7 @@ class LoginViewController: UIViewController, UITextFieldDelegate {
     @IBAction func login(_ sender:UIButton) {
         if (email.text?.isEmpty)! || (password.text?.isEmpty)! {
             DispatchQueue.main.async {
-                let alert = UIAlertController(title: "Required fields", message: "please enter a username or password", preferredStyle: .alert)
+                let alert = UIAlertController(title: "Required fields", message: "The credentials were incorrect, please check your email or password.", preferredStyle: .alert)
                 let action = UIAlertAction(title: "OK", style: .default, handler: nil)
                 alert.addAction(action)
                 self.present(alert, animated: true, completion: nil)
@@ -84,7 +84,7 @@ class LoginViewController: UIViewController, UITextFieldDelegate {
     func userAlert(message: String) {
         let alertVC = UIAlertController(title: "Login Failed", message: message, preferredStyle: .alert)
         alertVC.addAction (UIAlertAction(title: "OK", style: .default, handler: nil))
-        show(alertVC, sender: nil)
+        present(alertVC, animated: true)
     }
     
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {

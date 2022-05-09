@@ -43,11 +43,11 @@ class UdacityClient {
             case.createSessionId: return
                 "https://onthemap-api.udacity.com/v1/session"
             case.getLocations: return
-                "https://onthemap-api.udacity.com/v1/StudentLocation?order=-updatedAt"
+                "https://onthemap-api.udacity.com/v1/StudentLocation?limit=100&order=-updatedAt"
             case.postLocation: return
-                "https://onthemap-api.udacity/v1/StudentLocation"
+                "https://onthemap-api.udacity.com/v1/StudentLocation"
             case.getUserData: return
-                "https://onthemap-api.udacity/v1/users/\(Auth.accountKey)"
+                "https://onthemap-api.udacity.com/v1/users/\(Auth.accountKey)"
             case.updateLoction: return
                 "https://onthemap-api.udacity.com/v1/StudentLocation/\(PreviousPostLocationObject.objectId)"
             case.webAuth: return
