@@ -20,5 +20,8 @@ This project will give students an opportunity to post and retrieve data from a 
 ## Map View
 ![Simulator Screen Shot - iPod touch (7th generation) - 2022-05-12 at 22 42 44](https://user-images.githubusercontent.com/92055081/168165864-9d08e4f6-5a38-4daf-bd99-71d36e4dd56d.png)
 
+## Location View 
+![Simulator Screen Shot - iPod touch (7th generation) - 2022-05-12 at 22 43 12](https://user-images.githubusercontent.com/92055081/168166167-63585bb2-41b3-404b-82b6-ac3ed75efc25.png)
+
 
 
