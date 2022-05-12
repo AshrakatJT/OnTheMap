@@ -11,4 +11,5 @@ This project will give students an opportunity to post and retrieve data from a 
 * Use Core Location and the MapKit framework for to display annotated pins on a map.
 
 ## User Interface 
+![Simulator Screen Shot - iPod touch (7th generation) - 2022-05-12 at 22 40 41](https://user-images.githubusercontent.com/92055081/168165276-63b23053-2ef7-41ac-8c87-2a3fd656a711.png)
 
